@@ -1,0 +1,128 @@
+
+
+#body{
+     background-color: rgba(214, 214, 214, 1);
+}
+
+#main {
+     margin-top: 4.5rem;
+     margin-bottom: 40px;
+}
+.terminos{
+      padding-bottom:40px;
+      position:relative;
+}
+footer{
+  position:absolute;
+  padding-top:30px;
+  background-color:rgba(0,0,0,1);
+}
+
+.fondocard .card-body{
+      background-color:rgba(60, 56, 56, 1);
+}
+.fondocard .btn{
+      color:white;
+      background-color: rgba(94, 98, 103, 1);
+      border-color: rgba(94, 98, 103, 1);
+}
+
+.fondocard .btn.focus .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(94, 98, 103, 1);
+}
+.fondocard .btn:hover {
+  color: black;
+  background-color: rgba(94, 98, 103, 1);
+  border-color: rgba(94, 98, 103, 1);
+}
+#vermas{
+    background-color: black;
+}
+.text-center .titulo:before{
+    margin: 20px auto 0px;
+}
+.titulo:before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 90px;
+    background-color: rgba(111, 44, 220, 1);
+    box-shadow:0 0 0 0.1rem rgba(115, 42, 181, 0.2)
+    margin-top: 20px;
+}
+
+.nombre .linea:before{
+      margin-top:5px;
+}
+.linea:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 200px;
+    background-color: black;
+    box-shadow:0 0 0 0.1rem rgba(115, 42, 181, 0.2)
+    margin-top: 20px;
+}
+
+.card .card-header{
+  background-color: rgba(195, 195, 195, 1)
+}
+.modal-header{
+  background-color: rgba(195, 195, 195, 1)
+}
+
+.form-control label{
+  color:black;
+}
+.form-control .btn{
+  background-color:rgba(79, 78, 90, 1);
+  color:white;
+}
+.seguir{
+     color:white;
+}
+.facebook i {
+     color: white;
+}
+
+.twitter i {
+     color: white;
+}
+
+.instagram i {
+     color: white;
+}
+
+.google i {
+     color: white;
+}
+
+.map{
+     box-shadow: 10px 10px 10px grey;
+}
+.tarjeta{
+     box-shadow: 6px 6px 10px rgba(255,255,255,0.2);
+}
+
+.navbar{
+     background-color:rgba(0,0,0,1);
+     box-shadow: 3px 3px 3px rgba(44, 46, 44, 0.5);
+}
+
+.contenedor .copy:before{
+  margin: 0px auto 0px;
+}
+
+.copy:before{
+  content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: rgba(111, 44, 220, 1);
+    box-shadow:0 0 0 0.1rem rgba(115, 42, 181, 0.2)
+    margin-top: 20px;
+}
+
+
+
+
