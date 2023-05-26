@@ -110,4 +110,18 @@ class Libro_model extends CI_Model
 		$query = $this->db->get();
 		return $query->result();
 	}
+	
+	public function get_stock($libro_id){
+            $this->db->select('stock_libro');
+            $this->db->from('libro');
+            $this->db->where('libro_id', $libro_id);
+            $query = $this->db->get();
+            $result = $query->row();
+
+            if ($result) {
+                return $result->stock_libro;
+            } else {
+                return null;
+            }
+   }
 }
