@@ -26,7 +26,9 @@ class Pedidos_controller extends CI_Controller {
 					'detalle_cantidad' => $item['qty'],
 					'detalle_precio' => $item['price'],
 				);
-				$stock= $item['stock'] - $item['qty'];
+				$stock = $this->libro_model->get_stock('libro_id');
+				$stock = $stock - $item['qty'];
+				/*$stock= $item['stock'] - $item['qty'];*/
 				$data= array('stock_libro' => $stock);
 				$this->libro_model->set_productos($item['id'], $data);
 				$this->pedidos_model->guardar_detalle_pedido($orden_detalle);
